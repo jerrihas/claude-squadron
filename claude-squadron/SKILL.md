@@ -1,9 +1,9 @@
 ---
-name: multitask-dispatch
+name: claude-squadron
 description: Detect multi-task prompts ("do A, B, and C") and fan them out to parallel subagents instead of running them one at a time on the main thread. Each subtask gets model/effort picked automatically (via adaptive-effort's tier table) unless the user pins model/effort in the prompt. Use whenever a prompt contains 2+ independent asks — separated by "and", commas, numbered/bulleted lists, or multiple imperative verbs — and those asks don't depend on each other's output.
 ---
 
-# Multitask Dispatch
+# Claude Squadron
 
 ## Purpose
 

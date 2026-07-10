@@ -12,10 +12,10 @@ Claude Code skill: detect multi-task prompts ("do A, B, and C") and fan them out
 
 ## Install
 
-Drop `multitask-dispatch/` into your `~/.claude/skills/` directory.
+Drop `claude-squadron/` into your `~/.claude/skills/` directory.
 
 ```
-cp -r multitask-dispatch ~/.claude/skills/
+cp -r claude-squadron ~/.claude/skills/
 ```
 
 ## Requires
